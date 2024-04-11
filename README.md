@@ -83,7 +83,7 @@ cv2.destroyAllWindows()
 
 Replace 'path_to_your_image.jpg' with the path to your image.<br>
 
-Reading a Video<br>
+### Reading a Video<br>
 To read a video and play it:<br>
 
 ```python
@@ -110,7 +110,7 @@ cv2.destroyAllWindows()
 
 Replace 'path_to_your_video.mp4' with the path to your video.<br>
 
-Saving Video Frames<br>
+### Saving Video Frames<br>
 To extract and save frames from a video:<br>
 
 ```python
