@@ -33,8 +33,10 @@ pip3 --version
 
 If Python is not installed, install it using [Homebrew](https://brew.sh/):<br>
 
-c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"<br>
-brew install python<br>
+```console
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install python
+```
 
 2. Install OpenCV using pip:<br>
 
@@ -133,7 +135,9 @@ def save_video_frames(video_path, output_folder):
 ```
 
 # Example usage
+```python
 save_video_frames('path_to_your_video.mp4', 'frames_output')
+```
 
 Replace 'path_to_your_video.mp4' with the path to your video, and 'frames_output' with your desired output directory.<br>
 
