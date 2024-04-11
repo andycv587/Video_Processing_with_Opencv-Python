@@ -134,7 +134,7 @@ def save_video_frames(video_path, output_folder):
 
 ```
 
-# Example usage
+### Example usage
 ```python
 save_video_frames('path_to_your_video.mp4', 'frames_output')
 ```
