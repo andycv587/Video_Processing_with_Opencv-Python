@@ -49,8 +49,8 @@ pip3 install opencv-python
 1. Open a terminal window and ensure that Python and pip are installed:<br>
 
 ```console
-python3 --version<br>
-pip3 --version<br>
+python3 --version
+pip3 --version
 ```
 
 If Python is not installed, install it using your distribution's package manager (e.g., apt for Ubuntu, dnf for Fedora).<br>
@@ -58,7 +58,7 @@ If Python is not installed, install it using your distribution's package manager
 2. Install OpenCV using pip:<br>
 
 ```console
-pip3 install opencv-python<br>
+pip3 install opencv-python
 ```
 
 ## Usage<br>
