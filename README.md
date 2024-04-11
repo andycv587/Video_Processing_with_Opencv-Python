@@ -141,8 +141,8 @@ save_video_frames('path_to_your_video.mp4', 'frames_output')
 
 Replace 'path_to_your_video.mp4' with the path to your video, and 'frames_output' with your desired output directory.<br>
 
-Conclusion<br>
-This guide has introduced how to install OpenCV and use it for basic image and video processing tasks. For more advanced features and usage, refer to the OpenCV documentation.<br>
+# Conclusion<br>
+This guide has introduced how to install OpenCV and use it for basic image and video processing tasks. For more advanced features and usage, you can refer to the OpenCV documentation.<br>
 
 
 
