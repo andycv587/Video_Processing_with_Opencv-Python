@@ -38,7 +38,7 @@ If Python is not installed, install it using [Homebrew](https://brew.sh/):<br>
 brew install python
 ```
 
-2. Install OpenCV OpenCV-contribute using pip:<br>
+2. Install OpenCV and OpenCV-contribute using pip:<br>
 
 ```console
 pip3 install opencv-python
