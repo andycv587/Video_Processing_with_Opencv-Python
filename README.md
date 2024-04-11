@@ -8,47 +8,56 @@ This guide provides instructions for installing OpenCV on Windows, macOS, and Li
 
 1. Open a command prompt and ensure that Python and pip are installed:<br>
 
-python --version<br>
-pip --version<br>
+```console
+python --version
+pip --version
+```
 
 If Python is not installed, download and install it from the [official website](https://www.python.org/downloads/windows/).<br>
 
 2. Install OpenCV using pip:<br>
 
-pip install opencv-python<br>
-
-pip install opencv-contrib-python<br>
+```console
+pip install opencv-python
+pip install opencv-contrib-python
+```
 
 ### macOS<br>
 
 1. Open a terminal window and ensure that Python and pip are installed:<br>
 
-python3 --version<br>
-
-pip3 --version<br>
+```console
+python3 --version
+pip3 --version
+```
 
 If Python is not installed, install it using [Homebrew](https://brew.sh/):<br>
 
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"<br>
+c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"<br>
 brew install python<br>
 
 2. Install OpenCV using pip:<br>
 
-pip3 install opencv-python<br>
-
+```console
+pip3 install opencv-python
+```
 
 ### Linux<br>
 
 1. Open a terminal window and ensure that Python and pip are installed:<br>
 
+```console
 python3 --version<br>
 pip3 --version<br>
+```
 
 If Python is not installed, install it using your distribution's package manager (e.g., apt for Ubuntu, dnf for Fedora).<br>
 
 2. Install OpenCV using pip:<br>
 
+```console
 pip3 install opencv-python<br>
+```
 
 ## Usage<br>
 
@@ -67,10 +76,15 @@ cv2.imshow('Image', image)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 
+```
+
+
 Replace 'path_to_your_image.jpg' with the path to your image.<br>
 
 Reading a Video<br>
 To read a video and play it:<br>
+
+```python
 
 import cv2
 
@@ -90,10 +104,14 @@ while cap.isOpened():
 cap.release()
 cv2.destroyAllWindows()
 
+```
+
 Replace 'path_to_your_video.mp4' with the path to your video.<br>
 
 Saving Video Frames<br>
 To extract and save frames from a video:<br>
+
+```python
 
 import cv2
 import os
@@ -111,6 +129,8 @@ def save_video_frames(video_path, output_folder):
         frame_count += 1
     cap.release()
     print(f"Extracted {frame_count} frames.")
+
+```
 
 # Example usage
 save_video_frames('path_to_your_video.mp4', 'frames_output')
