@@ -15,7 +15,7 @@ pip --version
 
 If Python is not installed, download and install it from the [official website](https://www.python.org/downloads/windows/).<br>
 
-2. Install OpenCV using pip:<br>
+2. Install OpenCV and OpenCV-contribute using pip:<br>
 
 ```console
 pip install opencv-python
@@ -38,10 +38,11 @@ If Python is not installed, install it using [Homebrew](https://brew.sh/):<br>
 brew install python
 ```
 
-2. Install OpenCV using pip:<br>
+2. Install OpenCV OpenCV-contribute using pip:<br>
 
 ```console
 pip3 install opencv-python
+pip3 install opencv-contrib-python
 ```
 
 ### Linux<br>
@@ -55,10 +56,11 @@ pip3 --version
 
 If Python is not installed, install it using your distribution's package manager (e.g., apt for Ubuntu, dnf for Fedora).<br>
 
-2. Install OpenCV using pip:<br>
+2. Install OpenCV and OpenCV-contribute using pip:<br>
 
 ```console
 pip3 install opencv-python
+pip3 install opencv-contrib-python
 ```
 
 ## Usage<br>
